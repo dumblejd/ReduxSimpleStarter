@@ -23,3 +23,12 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 > npm install
 > npm start
 ```
+
+
+##9.27
+add search function
+1. onKeyPress(e){                         //???? why use this with parameter will fail??????????
+may be use the funtion without para will make it accept all data type.
+2. when to use bind ?
+https://segmentfault.com/q/1010000012788278  in this link, an answer says it's not suitable to use bind in that question. But why? as the function use the 'this'(without bind it will give error).
+3. still don't know how to debug with this environment
